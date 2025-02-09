@@ -1,3 +1,41 @@
+/* Add this to your styles.css file */
+
+@media (max-width: 768px) {
+    /* Styles for devices with a max-width of 768px (e.g. tablets) */
+    header {
+        font-size: 1.5em;
+    }
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    #sectionText, #sectionImg {
+        display: block;
+        width: 100%;
+    }
+    #sectionImg img {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Styles for devices with a max-width of 480px (e.g. smartphones) */
+    header {
+        font-size: 1.2em;
+    }
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    #sectionText, #sectionImg {
+        display: block;
+        width: 100%;
+    }
+    #sectionImg img {
+        max-width: 100%;
+    }
+}
+
 body {
     background-color: rgb(40, 39, 57);
     color: white;
@@ -10,7 +48,6 @@ body {
 header {
     float: left;
     margin-top: 35px;
-    font-size: 150%;
 }
 
 nav {
